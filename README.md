@@ -160,9 +160,6 @@ weekly-operations-tracker-powerbi/
 │   ├── NPS.png
 │   └── GPS.png
 │
-├── Documentation/
-│   └── Project Report (PDF)
-│
 └── README.md
 ```
 
