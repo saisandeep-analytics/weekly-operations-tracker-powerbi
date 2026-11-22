@@ -90,7 +90,6 @@ Provides three levels of operational insight:
 
 ## Dashboard Screenshots
 
-Add your dashboard screenshots to the `Screenshots` folder and use the following section to display them.
 
 ### Dashboard Overview
 
