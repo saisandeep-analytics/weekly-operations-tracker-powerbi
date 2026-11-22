@@ -1,7 +1,7 @@
 # Weekly Operations Tracker – Power BI Dashboard
 
 <p align="center">
-  <img src="screenshots/None.png" alt="Weekly Operations Tracker Dashboard Overview" width="100%">
+  <img src="screenshots/None%20.png" alt="Weekly Operations Tracker Dashboard Overview" width="100%">
 </p>
 
 <p align="center">
@@ -83,7 +83,7 @@ The following screenshots demonstrate how the dashboard responds to different me
 
 ### Speed of Service (SOS)
 
-![Speed of Service](screenshots/SOS.png)
+![Speed of Service](screenshots/SOS%20.png)
 
 ### Guest Satisfaction (GSAT)
 
@@ -91,15 +91,15 @@ The following screenshots demonstrate how the dashboard responds to different me
 
 ### Labour Performance
 
-![Labour Performance](screenshots/Labour.png)
+![Labour Performance](screenshots/Labour%20.png)
 
 ### Friendliness NPS
 
-![Friendliness NPS](screenshots/NPS.png)
+![Friendliness NPS](screenshots/NPS%20.png)
 
 ### GPS Performance
 
-![GPS Performance](screenshots/GPS.png)
+![GPS Performance](screenshots/GPS%20.png)
 
 ## Data Model & Calculations
 
