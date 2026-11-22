@@ -1,154 +1,168 @@
 # Weekly Operations Tracker – Power BI Dashboard
 
+<p align="center">
+  <img src="screenshots/None.png" alt="Weekly Operations Tracker Dashboard Overview" width="100%">
+</p>
+
+<p align="center">
+  <strong>Power BI Dashboard | Restaurant Operations | Weekly Performance Analysis</strong>
+</p>
+
+---
+
 ## Project Overview
 
-The **Weekly Operations Tracker** is an interactive Power BI dashboard designed to monitor and analyse the weekly operational performance of two restaurant locations:
+The Weekly Operations Tracker is an interactive Power BI dashboard designed to monitor and compare weekly restaurant operational performance across two Tim Hortons locations:
 
-- Port Severn (Store ID: 5349)
-- Waubaushene (Store ID: 5201)
+- **Port Severn** – Store ID: 5349
+- **Waubaushene** – Store ID: 5201
 
-The dashboard provides a centralised view of key operational metrics, allowing management to compare store performance, monitor historical trends and identify areas that may require operational attention.
+The dashboard provides a consolidated view of key operational metrics, helping management compare store performance, identify trends and monitor areas requiring attention.
 
-The project focuses on transforming weekly operational data into meaningful insights that support better decision-making and performance monitoring.
-
-> **Note:** This project currently uses fictional sample data for demonstration purposes. It is designed to accommodate actual weekly operational data when available.
+This project was developed as a portfolio demonstration using fictional sample data.
 
 ## Business Objectives
 
-- Monitor weekly performance across two restaurant locations.
-- Compare operational results between stores.
-- Identify performance gaps and improvement opportunities.
-- Track changes against previous reporting weeks.
-- Analyse historical performance trends.
-- Provide management with a simple and interactive reporting experience.
+The main objectives of this project are to:
+
+- Compare weekly operational performance between two restaurant locations.
+- Monitor Speed of Service across different dayparts.
+- Track Guest Satisfaction and Friendliness NPS.
+- Evaluate GPS performance and Labour Performance.
+- Identify week-over-week changes and longer-term performance trends.
+- Present actionable operational insights through a single interactive dashboard.
 
 ## Tools & Technologies
 
-| Tool | Purpose |
-|---|---|
-| Microsoft Power BI | Dashboard development and visualisation |
-| DAX | Measures, calculations and dynamic insights |
-| Microsoft Excel | Data preparation and source dataset |
-| Power BI Data Model | Data organisation and reporting structure |
+- **Microsoft Power BI Desktop** – Dashboard development and data visualisation
+- **DAX** – Measures, calculations and dynamic insights
+- **Microsoft Excel** – Sample data preparation
+- **Power BI Data Model** – Data organisation and reporting structure
 
 ## Key Performance Metrics
 
-The dashboard supports five selectable operational metrics:
+The dashboard monitors five key operational metrics:
 
-1. **Speed of Service (SOS)** – Monitors service times across five dayparts:
-   - Weekday AM
-   - Weekend AM
-   - Brunch
-   - Weekday PM
-   - Weekend PM
-
-2. **Guest Satisfaction (GSAT)** – Tracks guest satisfaction performance across both stores.
-
-3. **Friendliness NPS** – Monitors customer feedback relating to friendliness.
-
-4. **GPS Performance** – Tracks the selected GPS performance measure.
-
-5. **Labour Performance** – Monitors labour percentage across both locations.
+| Metric | Purpose |
+|---|---|
+| Speed of Service (SOS) | Monitors service speed across five dayparts |
+| Guest Satisfaction (GSAT) | Tracks customer satisfaction performance |
+| Friendliness NPS | Measures customer perceptions of friendliness |
+| GPS Performance | Monitors overall GPS performance |
+| Labour Performance | Tracks labour percentage across locations |
 
 ## Dashboard Features
 
-### 1. Dynamic KPI Cards
+### 1. Dynamic Metric Selection
 
-Displays the selected reporting week's performance for both stores, including:
+Users can select any of the five operational metrics. The KPI cards, comparison chart, trend chart and key takeaways respond to the selected metric.
 
-- Port Severn KPI
-- Waubaushene KPI
-- Difference between stores
-- Dynamic performance interpretation
+### 2. Weekly Store Comparison
 
-### 2. Store Comparison Chart
-
-Provides a visual comparison between Port Severn and Waubaushene.
-
-The chart dynamically responds to the selected metric. For Speed of Service, it displays all five dayparts.
+The dashboard compares Port Severn and Waubaushene for the selected reporting week, including the difference between the two locations.
 
 ### 3. Historical Trend Analysis
 
-Displays the historical performance of both stores across all available reporting weeks.
+The trend chart displays performance across the available reporting weeks, allowing management to monitor changes over time.
 
-The trend chart dynamically updates according to the selected metric while retaining the full historical timeline when a reporting week is selected.
+### 4. Key Operational Takeaways
 
-### 4. Dynamic Key Takeaways
+Dynamic insights highlight:
 
-Provides three levels of operational insight:
+- Weekly performance differences between the two stores.
+- Week-over-week performance changes.
+- Longer-term performance trends and relevant operational observations.
 
-- **Weekly Performance:** Identifies the difference in performance between the two stores for the selected week.
-- **Week-over-Week Change:** Shows how each store's performance changed compared with its previous available reporting week.
-- **Overall Trend:** Compares each store's first and latest available reporting weeks. For SOS, the insight focuses on daypart performance.
+### 5. Interactive Reporting
 
-### 5. Interactive Filters
-
-- Reporting Week selection
-- Metric selection
-- Dynamic KPI and chart updates
-- Historical trend analysis
+The dashboard includes a reporting-week slicer and a metric selector, allowing users to explore operational performance from different perspectives.
 
 ## Dashboard Screenshots
 
+The following screenshots demonstrate how the dashboard responds to different metric selections.
 
-### Dashboard Overview
+### Speed of Service (SOS)
 
-![Weekly Operations Tracker Dashboard](Screenshots/dashboard-overview.png)
+![Speed of Service](screenshots/SOS.png)
 
-### Speed of Service Analysis
+### Guest Satisfaction (GSAT)
 
-![Speed of Service Analysis](Screenshots/sos-performance.png)
+![Guest Satisfaction](screenshots/GSAT.png)
 
-### Metric Performance Analysis
+### Labour Performance
 
-![Metric Performance Analysis](Screenshots/metric-analysis.png)
+![Labour Performance](screenshots/Labour.png)
+
+### Friendliness NPS
+
+![Friendliness NPS](screenshots/NPS.png)
+
+### GPS Performance
+
+![GPS Performance](screenshots/GPS.png)
 
 ## Data Model & Calculations
 
-The project uses a structured weekly operational dataset containing store information, reporting periods and performance metrics.
+The project uses a structured weekly operational dataset containing reporting-week information, store details and operational performance metrics.
 
 DAX measures were developed to support:
 
-- Dynamic metric selection
-- Store-level KPI calculations
-- Store performance differences
-- Conditional chart measures
-- Historical trend calculations
-- Week-over-week comparisons
-- Dynamic performance interpretations
-- Reporting-week validation
+- Store-level KPI calculations.
+- Performance differences between locations.
+- Dynamic metric selection.
+- Week-over-week comparisons.
+- Historical trend analysis.
+- Dynamic titles and operational takeaways.
 
-A disconnected metric selector and a separate trend-axis table support the dashboard's dynamic behaviour.
+A disconnected metric selector and trend-week axis were used to support dynamic reporting and historical analysis.
 
 ## Business Value
 
-This dashboard demonstrates how restaurant operational data can be used to:
+This dashboard demonstrates how restaurant operational data can be converted into meaningful management insights.
 
-- Improve visibility into store performance.
-- Identify differences between locations.
-- Monitor service and guest satisfaction metrics.
-- Understand changes in labour performance.
-- Track operational progress over time.
-- Support structured weekly management reviews.
+It helps management:
+
+- Compare performance across restaurant locations.
+- Identify operational strengths and improvement opportunities.
+- Monitor service speed, customer satisfaction and labour performance.
+- Understand changes in performance over time.
+- Support data-driven operational decisions.
 
 ## Future Enhancements
 
 Potential future improvements include:
 
-- Integration with actual restaurant reporting exports.
-- Automated weekly data refresh.
-- Labour scheduling and forecasting analysis.
-- Operational corrective action tracking.
-- Additional management reporting and performance indicators.
+- Connecting the dashboard to actual weekly restaurant reports.
+- Automating the weekly data refresh process.
+- Adding additional operational KPIs where reliable data is available.
+- Expanding the analysis to additional restaurant locations.
+
+## Project Structure
+
+```text
+weekly-operations-tracker-powerbi/
+│
+├── Dashboard/
+│   └── Final Power BI file (.pbix)
+│
+├── Screenshots/
+│   ├── None.png
+│   ├── SOS.png
+│   ├── GSAT.png
+│   ├── Labour.png
+│   ├── NPS.png
+│   └── GPS.png
+│
+├── Documentation/
+│   └── Project Report (PDF)
+│
+└── README.md
+```
 
 ## Project Status
 
-**Completed – Initial Dashboard Development**
+**Completed** – Dashboard development, dynamic metric selection, store comparisons, historical trend analysis and operational takeaways.
 
-The dashboard has been developed and tested using fictional sample data across both restaurant locations and all five performance metrics.
+## Note on Sample Data
 
----
-
-**Developed using:** Microsoft Power BI | DAX | Microsoft Excel
-
-**Project Category:** Restaurant Operations Analytics | Business Intelligence | Data Analytics
+This portfolio project uses fictional sample data for demonstration purposes. The store performance figures shown in the dashboard do not represent actual Tim Hortons business results or confidential company information.
