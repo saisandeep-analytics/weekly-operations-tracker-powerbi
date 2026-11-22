@@ -21,6 +21,13 @@ The dashboard provides a consolidated view of key operational metrics, helping m
 
 This project was developed as a portfolio demonstration using fictional sample data.
 
+## Download Power BI Dashboard
+
+[Download Weekly Operations Tracker (.pbix)](Dashboard/Weekly_Operations_Tracker.pbix)
+
+To open the dashboard, download the PBIX file and open it using Microsoft Power BI Desktop.
+
+
 ## Business Objectives
 
 The main objectives of this project are to:
